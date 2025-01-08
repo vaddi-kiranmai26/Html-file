@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.child_image{
+    width: 200px;
+    height: 200px;
+    border:5px solid black;
+    border-radius: 30px;
+    margin-left: -130px;
+    background-color: darkslategrey;
+    transform: skewX(-30deg);
+    transition: all 2s;
+}
+#image_container{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 500px;
+    margin-left: 650px;
+}
+#cycle:hover{
+    transform:skewX(0deg) translate(200px,-350px) rotateY(360deg) scale(2);
+}
+#bike:hover{
+    transform:skewX(0deg) translate(120px,-350px) rotateY(360deg) scale(2);
+}
+#car:hover{
+    transform:skewX(0deg) translate(38px,-350px) rotateY(360deg) scale(2);
+}
+#truck:hover{
+    transform:skewX(0deg) translate(-45px,-350px) rotateY(360deg) scale(2);
+}
+#buldozer:hover{
+    transform:skewX(0deg) translate(-125px,-350px) rotateY(360deg) scale(2);
+}
